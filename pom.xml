@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.m.launchcode</groupId>
+  <groupId>com.launchcode</groupId>
   <artifactId>metrolink</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -20,6 +20,12 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.xerial.thirdparty</groupId>
+            <artifactId>jdbc-api</artifactId>
+            <version>1.4</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
