@@ -5,5 +5,6 @@ package com.launchcode.metrolink;
  */
 public class AppOutput {
     public void print(String s) {
+        System.out.println(s);
     }
 }

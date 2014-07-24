@@ -8,16 +8,18 @@ import java.util.List;
  * Created by r.harkins on 7/24/2014.
  */
 public class SqliteJDBCDao {
-    private AppOutput appOutput;
+    private AppOutput appOutput = new AppOutput();
     public static final String JDBC_SQLITE_METROLINK_DB = "jdbc:sqlite:metrolink.db";
-    public static String ORG_SQLITE_JDBC = "org.sqlite.JDBC";
+    public static final String ORG_SQLITE_JDBC = "org.sqlite.JDBC";
 
-    List<Stop> getStopsAllStops(){
+    public List<Stop> getStopsAllStops(){
         appOutput.print("Fetching metrolink stations...");
-        try (Connection connection = getConnection();) {
+        try (Connection connection = getConnection()) {
             PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM stops");
+            System.out.println("Statement prepared");
             ResultSet resultSet = preparedStatement.executeQuery();
             List<Stop> stops = new ArrayList<>();
+            System.out.println("stops gotten");
             while(resultSet.next()) {
                 Stop stop = new Stop();
                 stop.setStopName(resultSet.getString("stop_name"));

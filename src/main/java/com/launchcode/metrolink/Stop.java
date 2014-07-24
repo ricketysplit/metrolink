@@ -14,4 +14,8 @@ public class Stop {
     public void setStopDescription(String stopDescription) {
         this.stopDescription = stopDescription;
     }
+
+    public String getStopName() {
+        return stopName;
+    }
 }
