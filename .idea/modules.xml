@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/metrolink.iml" filepath="$PROJECT_DIR$/metrolink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/mario.iml" filepath="$PROJECT_DIR$/src/mario.iml" />
     </modules>
   </component>
 </project>
