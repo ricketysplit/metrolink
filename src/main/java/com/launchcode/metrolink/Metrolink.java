@@ -11,9 +11,7 @@ public class Metrolink {
 
     public static void main(String[] args){
         SqliteJDBCDao db = new SqliteJDBCDao();
-        List<Stop> stops = db.getStopsAllStops();
-        for(Stop stop : stops) {
-            System.out.println(stop.getStopName());
-        }
+        db.getNextArrivaltimes((new StationTracker()).getCurrentStation());
+
     }
 }
