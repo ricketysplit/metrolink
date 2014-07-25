@@ -34,9 +34,8 @@ public class StationTracker {
     public Stop getCurrentStation(){
         List<Stop> stops = getMetroLinkStations();
         appOutput.print("Enter the ID of your current station:");
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int stopId = 0;
-        try {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in));){
             String id = br.readLine();
             stopId = Integer.parseInt(id);
         } catch (IOException e) {
@@ -60,11 +59,24 @@ public class StationTracker {
             ResultSet resultSet = preparedStatement.executeQuery();
             List<Stop> stops = new ArrayList<>();
             while(resultSet.next()) {
-                System.out.println(resultSet.getString("arrival_time"));
+                System.out.println("The next train should arrive at " + formatStationTime(resultSet.getString("arrival_time")));
             }
             return "test";
         } catch (SQLException e) {
             throw new RuntimeException("Query failed");
         }
+    }
+
+    public String formatStationTime(String time){
+        String formattedTime = time.substring(0,5);
+        String hours = formattedTime.substring(0,2);
+        int hour = Integer.parseInt(hours);
+        if(hour>12){
+            hour -= 12;
+            formattedTime += " PM";
+        } else {
+            formattedTime += " AM";
+        }
+        return hour+formattedTime.substring(2,8);
     }
 }
