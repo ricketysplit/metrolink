@@ -18,9 +18,9 @@ public class StationTracker {
     private SqliteJDBCDao db;
     private AppOutput appOutput;
 
-    public StationTracker(){
-        db = new SqliteJDBCDao();
-        appOutput = new AppOutput();
+    public StationTracker(SqliteJDBCDao db, AppOutput appOutput){
+        this.db = db;
+        this.appOutput = appOutput;
     }
 
     public List<Stop> getMetroLinkStations(){

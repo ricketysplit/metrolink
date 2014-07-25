@@ -8,9 +8,13 @@ import java.util.List;
  * Created by r.harkins on 7/24/2014.
  */
 public class SqliteJDBCDao {
-    private AppOutput appOutput = new AppOutput();
+    private AppOutput appOutput;
     public static final String JDBC_SQLITE_METROLINK_DB = "jdbc:sqlite:metrolink.db";
     public static final String ORG_SQLITE_JDBC = "org.sqlite.JDBC";
+
+    public SqliteJDBCDao(AppOutput appOutput){
+        this.appOutput = appOutput;
+    }
 
     public List<Stop> getStopsAllStops(){
         appOutput.print("Fetching metrolink stations...");

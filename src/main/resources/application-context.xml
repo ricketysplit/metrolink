@@ -14,7 +14,14 @@
     </bean>
 
     <bean id="stationTracker" class="com.ricketysplit.metrolink.StationTracker">
-
+        <constructor-arg ref="sqliteJDBCDao"/>
+        <constructor-arg ref="appOutput"/>
     </bean>
+
+    <bean id="sqliteJDBCDao" class="com.ricketysplit.metrolink.SqliteJDBCDao">
+        <constructor-arg ref="appOutput"/>
+    </bean>
+
+    <bean id="appOutput" class="com.ricketysplit.metrolink.AppOutput"></bean>
 
 </beans>
