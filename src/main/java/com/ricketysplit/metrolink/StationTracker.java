@@ -1,8 +1,13 @@
-package com.launchcode.metrolink;
+package com.ricketysplit.metrolink;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -43,5 +48,23 @@ public class StationTracker {
             }
         }
         return null;
+    }
+
+    public String getNextArrivaltimes(){
+        Stop stop = getCurrentStation();
+        String sql = "SELECT DISTINCT arrival_time FROM stop_times WHERE stop_id = '" + stop.getStopID()
+                + "' AND arrival_time > (SELECT strftime('%H:%M:%S',datetime(strftime('%s','now'),'unixepoch','localtime'))) ORDER BY arrival_time LIMIT 1;";
+        appOutput.print("Finding next arrival time for " + stop.getStopName());
+        try (Connection connection = SqliteJDBCDao.getConnection();) {
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            List<Stop> stops = new ArrayList<>();
+            while(resultSet.next()) {
+                System.out.println(resultSet.getString("arrival_time"));
+            }
+            return "test";
+        } catch (SQLException e) {
+            throw new RuntimeException("Query failed");
+        }
     }
 }

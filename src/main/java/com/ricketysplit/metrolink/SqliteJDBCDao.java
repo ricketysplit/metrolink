@@ -1,4 +1,4 @@
-package com.launchcode.metrolink;
+package com.ricketysplit.metrolink;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -30,23 +30,6 @@ public class SqliteJDBCDao {
         }
     }
 
-    public String getNextArrivaltimes(Stop stop){
-        String sql = "SELECT DISTINCT arrival_time FROM stop_times WHERE stop_id = '" + stop.getStopID()
-                + "' AND arrival_time > (SELECT strftime('%H:%M:%S',datetime(strftime('%s','now'),'unixepoch','localtime'))) ORDER BY arrival_time LIMIT 1;";
-        appOutput.print("Finding next arrival time for " + stop.getStopName());
-        try (Connection connection = getConnection();) {
-            PreparedStatement preparedStatement = connection.prepareStatement(sql);
-            ResultSet resultSet = preparedStatement.executeQuery();
-            List<Stop> stops = new ArrayList<>();
-            while(resultSet.next()) {
-                System.out.println(resultSet.getString("arrival_time"));
-            }
-            return "test";
-        } catch (SQLException e) {
-            throw new RuntimeException("Query failed");
-        }
-    }
-
     public List<Stop> getStopsLike(String like){
         appOutput.print("Fetching metrolink stations like " + like + "...");
         try (Connection connection = getConnection();) {
@@ -68,7 +51,7 @@ public class SqliteJDBCDao {
         }
     }
 
-    private static Connection getConnection() throws SQLException {
+    public static Connection getConnection() throws SQLException {
         try {
             Class.forName(ORG_SQLITE_JDBC);
         } catch (ClassNotFoundException e){
