@@ -1,18 +1,26 @@
 package com.ricketysplit.metrolink;
 
+import javax.persistence.*;
+import static javax.persistence.GenerationType.IDENTITY;
+
 /**
  * Created by r.harkins on 7/24/2014.
  */
+@Entity
+@Table(name="stops")
 public class Stop {
+    @Id
+    @GeneratedValue(strategy=IDENTITY)
+    @Column(name="stop_id",unique = true, nullable = false)
+    private Integer stopID;
+    @Column(name = "stop_name")
     private String stopName;
+    @Column(name = "stop_desc")
     private String stopDescription;
-    private int stopID;
-    private int order;
-    private static int counter = 1;
+
 
     public Stop() {
-        this.order = counter;
-        counter++;
+
     }
 
     public void setStopName(String stopName){
@@ -21,10 +29,6 @@ public class Stop {
 
     public void setStopDescription(String stopDescription) {
         this.stopDescription = stopDescription;
-    }
-
-    public void setOrder(int order){
-        this.order = order;
     }
 
     public void setStopID(int stopID) {
@@ -39,11 +43,7 @@ public class Stop {
         return stopDescription;
     }
 
-    public int getOrder(){
-        return order;
-    }
-
-    public int getStopID(){
+    public Integer getStopID(){
         return stopID;
     }
 }

@@ -1,0 +1,782 @@
+2014-07-28 15:21:16,975 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration boolean -> org.hibernate.type.BooleanType@1b58adc7
+2014-07-28 15:21:16,975 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration boolean -> org.hibernate.type.BooleanType@1b58adc7
+2014-07-28 15:21:16,976 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1b58adc7
+2014-07-28 15:21:16,978 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4ebb5921
+2014-07-28 15:21:16,980 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration true_false -> org.hibernate.type.TrueFalseType@929750e
+2014-07-28 15:21:16,981 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration yes_no -> org.hibernate.type.YesNoType@3e66ee25
+2014-07-28 15:21:16,983 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration byte -> org.hibernate.type.ByteType@5d724632
+2014-07-28 15:21:16,983 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration byte -> org.hibernate.type.ByteType@5d724632
+2014-07-28 15:21:16,983 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5d724632
+2014-07-28 15:21:16,985 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration character -> org.hibernate.type.CharacterType@677b15f3
+2014-07-28 15:21:16,985 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration char -> org.hibernate.type.CharacterType@677b15f3
+2014-07-28 15:21:16,985 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@677b15f3
+2014-07-28 15:21:16,989 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration short -> org.hibernate.type.ShortType@1170e466
+2014-07-28 15:21:16,990 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration short -> org.hibernate.type.ShortType@1170e466
+2014-07-28 15:21:16,990 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1170e466
+2014-07-28 15:21:16,992 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration integer -> org.hibernate.type.IntegerType@59433767
+2014-07-28 15:21:16,992 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration int -> org.hibernate.type.IntegerType@59433767
+2014-07-28 15:21:16,992 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@59433767
+2014-07-28 15:21:16,998 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration long -> org.hibernate.type.LongType@338e5318
+2014-07-28 15:21:16,998 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration long -> org.hibernate.type.LongType@338e5318
+2014-07-28 15:21:16,998 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.lang.Long -> org.hibernate.type.LongType@338e5318
+2014-07-28 15:21:17,000 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration float -> org.hibernate.type.FloatType@22ebbf0d
+2014-07-28 15:21:17,000 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration float -> org.hibernate.type.FloatType@22ebbf0d
+2014-07-28 15:21:17,000 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.lang.Float -> org.hibernate.type.FloatType@22ebbf0d
+2014-07-28 15:21:17,001 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration double -> org.hibernate.type.DoubleType@1ae9bae7
+2014-07-28 15:21:17,002 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration double -> org.hibernate.type.DoubleType@1ae9bae7
+2014-07-28 15:21:17,002 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1ae9bae7
+2014-07-28 15:21:17,004 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@3466386e
+2014-07-28 15:21:17,004 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@3466386e
+2014-07-28 15:21:17,006 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration big_integer -> org.hibernate.type.BigIntegerType@5ca39971
+2014-07-28 15:21:17,006 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@5ca39971
+2014-07-28 15:21:17,007 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration string -> org.hibernate.type.StringType@202d13df
+2014-07-28 15:21:17,007 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.lang.String -> org.hibernate.type.StringType@202d13df
+2014-07-28 15:21:17,008 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration nstring -> org.hibernate.type.StringNVarcharType@6ccc45d2
+2014-07-28 15:21:17,010 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@28c19a75
+2014-07-28 15:21:17,011 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration url -> org.hibernate.type.UrlType@688f48a4
+2014-07-28 15:21:17,011 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.net.URL -> org.hibernate.type.UrlType@688f48a4
+2014-07-28 15:21:17,014 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration date -> org.hibernate.type.DateType@66976434
+2014-07-28 15:21:17,014 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.sql.Date -> org.hibernate.type.DateType@66976434
+2014-07-28 15:21:17,016 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration time -> org.hibernate.type.TimeType@10f3360c
+2014-07-28 15:21:17,016 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.sql.Time -> org.hibernate.type.TimeType@10f3360c
+2014-07-28 15:21:17,019 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration timestamp -> org.hibernate.type.TimestampType@2c24be25
+2014-07-28 15:21:17,019 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@2c24be25
+2014-07-28 15:21:17,019 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.util.Date -> org.hibernate.type.TimestampType@2c24be25
+2014-07-28 15:21:17,020 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@a4f5b6d
+2014-07-28 15:21:17,022 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration calendar -> org.hibernate.type.CalendarType@1100b934
+2014-07-28 15:21:17,022 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@1100b934
+2014-07-28 15:21:17,022 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@1100b934
+2014-07-28 15:21:17,023 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@145d3317
+2014-07-28 15:21:17,025 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration locale -> org.hibernate.type.LocaleType@21daf346
+2014-07-28 15:21:17,025 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@21daf346
+2014-07-28 15:21:17,026 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration currency -> org.hibernate.type.CurrencyType@4a13a8ee
+2014-07-28 15:21:17,026 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@4a13a8ee
+2014-07-28 15:21:17,028 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration timezone -> org.hibernate.type.TimeZoneType@6f03d792
+2014-07-28 15:21:17,029 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6f03d792
+2014-07-28 15:21:17,030 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration class -> org.hibernate.type.ClassType@2e19266d
+2014-07-28 15:21:17,030 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.lang.Class -> org.hibernate.type.ClassType@2e19266d
+2014-07-28 15:21:17,032 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@7d73124b
+2014-07-28 15:21:17,032 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@7d73124b
+2014-07-28 15:21:17,032 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@509ae0a1
+2014-07-28 15:21:17,033 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@7ff60846
+2014-07-28 15:21:17,035 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration binary -> org.hibernate.type.BinaryType@61a35201
+2014-07-28 15:21:17,035 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration byte[] -> org.hibernate.type.BinaryType@61a35201
+2014-07-28 15:21:17,035 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration [B -> org.hibernate.type.BinaryType@61a35201
+2014-07-28 15:21:17,037 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@16a6a919
+2014-07-28 15:21:17,037 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@16a6a919
+2014-07-28 15:21:17,037 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@16a6a919
+2014-07-28 15:21:17,038 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration image -> org.hibernate.type.ImageType@41310b39
+2014-07-28 15:21:17,039 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration characters -> org.hibernate.type.CharArrayType@b508a8b
+2014-07-28 15:21:17,039 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration char[] -> org.hibernate.type.CharArrayType@b508a8b
+2014-07-28 15:21:17,040 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration [C -> org.hibernate.type.CharArrayType@b508a8b
+2014-07-28 15:21:17,041 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@d36bad6
+2014-07-28 15:21:17,041 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@d36bad6
+2014-07-28 15:21:17,041 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@d36bad6
+2014-07-28 15:21:17,042 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration text -> org.hibernate.type.TextType@bd35aa2
+2014-07-28 15:21:17,043 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration ntext -> org.hibernate.type.NTextType@44d2702e
+2014-07-28 15:21:17,058 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration blob -> org.hibernate.type.BlobType@5efbc9dc
+2014-07-28 15:21:17,058 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5efbc9dc
+2014-07-28 15:21:17,058 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@7edf6d84
+2014-07-28 15:21:17,063 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration clob -> org.hibernate.type.ClobType@7997d021
+2014-07-28 15:21:17,063 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@7997d021
+2014-07-28 15:21:17,066 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration nclob -> org.hibernate.type.NClobType@5f20a14c
+2014-07-28 15:21:17,066 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@5f20a14c
+2014-07-28 15:21:17,066 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@64198527
+2014-07-28 15:21:17,067 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@20efeed2
+2014-07-28 15:21:17,068 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration serializable -> org.hibernate.type.SerializableType@f2aa943
+2014-07-28 15:21:17,070 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration object -> org.hibernate.type.ObjectType@c5b6add
+2014-07-28 15:21:17,070 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@c5b6add
+2014-07-28 15:21:17,070 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@614b6b5d
+2014-07-28 15:21:17,071 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1e75d892
+2014-07-28 15:21:17,071 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@4add68dd
+2014-07-28 15:21:17,071 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@e0fab91
+2014-07-28 15:21:17,071 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@26c8c3cd
+2014-07-28 15:21:17,071 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@46aedb9f
+2014-07-28 15:21:17,071 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1d4c7fa
+2014-07-28 15:21:17,071 DEBUG org.hibernate.type.BasicTypeRegistry ~ Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3894ef06
+2014-07-28 15:21:17,087 INFO  org.hibernate.annotations.common.Version ~ HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2014-07-28 15:21:17,092 INFO  org.hibernate.Version ~ HHH000412: Hibernate Core {4.2.0.Final}
+2014-07-28 15:21:17,094 INFO  org.hibernate.cfg.Environment ~ HHH000206: hibernate.properties not found
+2014-07-28 15:21:17,095 INFO  org.hibernate.cfg.Environment ~ HHH000021: Bytecode provider name : javassist
+2014-07-28 15:21:17,106 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2014-07-28 15:21:17,106 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2014-07-28 15:21:17,107 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2014-07-28 15:21:17,107 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2014-07-28 15:21:17,108 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+2014-07-28 15:21:17,108 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2014-07-28 15:21:17,109 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2014-07-28 15:21:17,109 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2014-07-28 15:21:17,110 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2014-07-28 15:21:17,110 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2014-07-28 15:21:17,111 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2014-07-28 15:21:17,111 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2014-07-28 15:21:17,112 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2014-07-28 15:21:17,112 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2014-07-28 15:21:17,113 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2014-07-28 15:21:17,124 DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl ~ Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2014-07-28 15:21:17,145 DEBUG org.hibernate.cfg.Configuration ~ Preparing to build session factory with filters : {}
+2014-07-28 15:21:17,145 TRACE org.hibernate.cfg.Configuration ~ Starting secondPassCompile() processing
+2014-07-28 15:21:17,168 DEBUG org.hibernate.cfg.Configuration ~ Processing hbm.xml files
+2014-07-28 15:21:17,168 DEBUG org.hibernate.cfg.Configuration ~ Process annotated classes
+2014-07-28 15:21:17,172 DEBUG org.hibernate.cfg.AnnotationBinder ~ Binding entity from annotated class: com.ricketysplit.metrolink.Stop
+2014-07-28 15:21:17,194 DEBUG org.hibernate.cfg.Ejb3Column ~ Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2014-07-28 15:21:17,196 DEBUG org.hibernate.cfg.AnnotationBinder ~ No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2014-07-28 15:21:17,202 DEBUG org.hibernate.cfg.annotations.EntityBinder ~ Import with entity name Stop
+2014-07-28 15:21:17,204 DEBUG org.hibernate.cfg.annotations.EntityBinder ~ Bind entity com.ricketysplit.metrolink.Stop on table stops
+2014-07-28 15:21:17,223 TRACE org.hibernate.cfg.AnnotationBinder ~ Processing annotations of com.ricketysplit.metrolink.Stop.stopID
+2014-07-28 15:21:17,226 DEBUG org.hibernate.cfg.Ejb3Column ~ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(stops), mappingColumn=stop_id, insertable=true, updatable=true, unique=true}
+2014-07-28 15:21:17,231 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ MetadataSourceProcessor property stopID with lazy=false
+2014-07-28 15:21:17,234 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ building SimpleValue for stopID
+2014-07-28 15:21:17,235 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ Building property stopID
+2014-07-28 15:21:17,237 TRACE org.hibernate.cfg.annotations.PropertyBinder ~ Cascading stopID with null
+2014-07-28 15:21:17,238 TRACE org.hibernate.cfg.AnnotationBinder ~ Bind @Id on stopID
+2014-07-28 15:21:17,238 TRACE org.hibernate.cfg.AnnotationBinder ~ Processing annotations of com.ricketysplit.metrolink.Stop.stopDescription
+2014-07-28 15:21:17,238 DEBUG org.hibernate.cfg.Ejb3Column ~ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(stops), mappingColumn=stop_desc, insertable=true, updatable=true, unique=false}
+2014-07-28 15:21:17,238 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ MetadataSourceProcessor property stopDescription with lazy=false
+2014-07-28 15:21:17,238 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ building SimpleValue for stopDescription
+2014-07-28 15:21:17,238 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ Building property stopDescription
+2014-07-28 15:21:17,238 TRACE org.hibernate.cfg.annotations.PropertyBinder ~ Cascading stopDescription with null
+2014-07-28 15:21:17,239 TRACE org.hibernate.cfg.AnnotationBinder ~ Processing annotations of com.ricketysplit.metrolink.Stop.stopName
+2014-07-28 15:21:17,239 DEBUG org.hibernate.cfg.Ejb3Column ~ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(stops), mappingColumn=stop_name, insertable=true, updatable=true, unique=false}
+2014-07-28 15:21:17,239 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ MetadataSourceProcessor property stopName with lazy=false
+2014-07-28 15:21:17,239 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ building SimpleValue for stopName
+2014-07-28 15:21:17,239 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ Building property stopName
+2014-07-28 15:21:17,239 TRACE org.hibernate.cfg.annotations.PropertyBinder ~ Cascading stopName with null
+2014-07-28 15:21:17,240 DEBUG org.hibernate.cfg.AnnotationBinder ~ Binding entity from annotated class: com.ricketysplit.metrolink.StopTimes
+2014-07-28 15:21:17,240 DEBUG org.hibernate.cfg.Ejb3Column ~ Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2014-07-28 15:21:17,240 DEBUG org.hibernate.cfg.AnnotationBinder ~ No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+2014-07-28 15:21:17,240 DEBUG org.hibernate.cfg.annotations.EntityBinder ~ Import with entity name StopTimes
+2014-07-28 15:21:17,240 DEBUG org.hibernate.cfg.annotations.EntityBinder ~ Bind entity com.ricketysplit.metrolink.StopTimes on table stop_times
+2014-07-28 15:21:17,243 TRACE org.hibernate.cfg.AnnotationBinder ~ Binding component with path: com.ricketysplit.metrolink.StopTimes.id
+2014-07-28 15:21:17,245 TRACE org.hibernate.cfg.AnnotationBinder ~ Processing annotations of com.ricketysplit.metrolink.StopTimesPK.stop_id
+2014-07-28 15:21:17,245 DEBUG org.hibernate.cfg.Ejb3Column ~ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(stop_times), mappingColumn=stop_id, insertable=true, updatable=true, unique=false}
+2014-07-28 15:21:17,246 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ MetadataSourceProcessor property stop_id with lazy=false
+2014-07-28 15:21:17,246 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ building SimpleValue for stop_id
+2014-07-28 15:21:17,246 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ Building property stop_id
+2014-07-28 15:21:17,246 TRACE org.hibernate.cfg.annotations.PropertyBinder ~ Cascading stop_id with null
+2014-07-28 15:21:17,246 TRACE org.hibernate.cfg.AnnotationBinder ~ Processing annotations of com.ricketysplit.metrolink.StopTimesPK.trip_id
+2014-07-28 15:21:17,246 DEBUG org.hibernate.cfg.Ejb3Column ~ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(stop_times), mappingColumn=trip_id, insertable=true, updatable=true, unique=false}
+2014-07-28 15:21:17,246 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ MetadataSourceProcessor property trip_id with lazy=false
+2014-07-28 15:21:17,246 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ building SimpleValue for trip_id
+2014-07-28 15:21:17,246 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ Building property trip_id
+2014-07-28 15:21:17,246 TRACE org.hibernate.cfg.annotations.PropertyBinder ~ Cascading trip_id with null
+2014-07-28 15:21:17,246 TRACE org.hibernate.cfg.AnnotationBinder ~ Binding component with path: com.ricketysplit.metrolink.StopTimes._identifierMapper
+2014-07-28 15:21:17,247 TRACE org.hibernate.cfg.AnnotationBinder ~ Processing annotations of com.ricketysplit.metrolink.StopTimes.stop_id
+2014-07-28 15:21:17,247 DEBUG org.hibernate.cfg.Ejb3Column ~ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(stop_times), mappingColumn=stop_id, insertable=true, updatable=true, unique=false}
+2014-07-28 15:21:17,247 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ MetadataSourceProcessor property stop_id with lazy=false
+2014-07-28 15:21:17,247 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ building SimpleValue for stop_id
+2014-07-28 15:21:17,247 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ Building property stop_id
+2014-07-28 15:21:17,247 TRACE org.hibernate.cfg.annotations.PropertyBinder ~ Cascading stop_id with null
+2014-07-28 15:21:17,247 TRACE org.hibernate.cfg.AnnotationBinder ~ Processing annotations of com.ricketysplit.metrolink.StopTimes.trip_id
+2014-07-28 15:21:17,247 DEBUG org.hibernate.cfg.Ejb3Column ~ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(stop_times), mappingColumn=trip_id, insertable=true, updatable=true, unique=false}
+2014-07-28 15:21:17,247 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ MetadataSourceProcessor property trip_id with lazy=false
+2014-07-28 15:21:17,247 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ building SimpleValue for trip_id
+2014-07-28 15:21:17,248 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ Building property trip_id
+2014-07-28 15:21:17,248 TRACE org.hibernate.cfg.annotations.PropertyBinder ~ Cascading trip_id with null
+2014-07-28 15:21:17,248 TRACE org.hibernate.cfg.AnnotationBinder ~ Processing annotations of com.ricketysplit.metrolink.StopTimes.arrivalTime
+2014-07-28 15:21:17,248 DEBUG org.hibernate.cfg.Ejb3Column ~ Binding column: Ejb3Column{table=org.hibernate.mapping.Table(stop_times), mappingColumn=arrival_time, insertable=true, updatable=true, unique=false}
+2014-07-28 15:21:17,248 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ MetadataSourceProcessor property arrivalTime with lazy=false
+2014-07-28 15:21:17,248 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ building SimpleValue for arrivalTime
+2014-07-28 15:21:17,248 DEBUG org.hibernate.cfg.annotations.PropertyBinder ~ Building property arrivalTime
+2014-07-28 15:21:17,248 TRACE org.hibernate.cfg.annotations.PropertyBinder ~ Cascading arrivalTime with null
+2014-07-28 15:21:17,248 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ Setting SimpleValue typeName for stopID
+2014-07-28 15:21:17,249 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ Setting SimpleValue typeName for stopDescription
+2014-07-28 15:21:17,249 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ Setting SimpleValue typeName for stopName
+2014-07-28 15:21:17,249 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ Setting SimpleValue typeName for stop_id
+2014-07-28 15:21:17,249 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ Setting SimpleValue typeName for trip_id
+2014-07-28 15:21:17,249 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ Setting SimpleValue typeName for stop_id
+2014-07-28 15:21:17,249 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ Setting SimpleValue typeName for trip_id
+2014-07-28 15:21:17,249 DEBUG org.hibernate.cfg.annotations.SimpleValueBinder ~ Setting SimpleValue typeName for arrivalTime
+2014-07-28 15:21:17,249 DEBUG org.hibernate.cfg.Configuration ~ Processing fk mappings (*ToOne and JoinedSubclass)
+2014-07-28 15:21:17,251 DEBUG org.hibernate.cfg.Configuration ~ Processing extends queue
+2014-07-28 15:21:17,251 DEBUG org.hibernate.cfg.Configuration ~ Processing extends queue
+2014-07-28 15:21:17,251 DEBUG org.hibernate.cfg.Configuration ~ Processing collection mappings
+2014-07-28 15:21:17,251 DEBUG org.hibernate.cfg.Configuration ~ Processing native query and ResultSetMapping mappings
+2014-07-28 15:21:17,251 DEBUG org.hibernate.cfg.Configuration ~ Processing association property references
+2014-07-28 15:21:17,251 DEBUG org.hibernate.cfg.Configuration ~ Creating tables' unique integer identifiers
+2014-07-28 15:21:17,251 DEBUG org.hibernate.cfg.Configuration ~ Processing foreign key constraints
+2014-07-28 15:21:17,268 WARN  org.hibernate.mapping.RootClass ~ HHH000038: Composite-id class does not override equals(): com.ricketysplit.metrolink.StopTimesPK
+2014-07-28 15:21:17,268 WARN  org.hibernate.mapping.RootClass ~ HHH000039: Composite-id class does not override hashCode(): com.ricketysplit.metrolink.StopTimesPK
+2014-07-28 15:21:17,269 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl ~ Initializing service [role=org.hibernate.engine.jdbc.spi.JdbcServices]
+2014-07-28 15:21:17,276 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl ~ Initializing service [role=org.hibernate.service.jdbc.connections.spi.ConnectionProvider]
+2014-07-28 15:21:17,278 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl ~ Initializing service [role=org.hibernate.service.jndi.spi.JndiService]
+2014-07-28 15:21:17,280 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl ~ Initializing service [role=org.hibernate.service.jdbc.dialect.spi.DialectFactory]
+2014-07-28 15:21:17,281 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl ~ Initializing service [role=org.hibernate.service.jdbc.dialect.spi.DialectResolver]
+2014-07-28 15:21:17,441 DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl ~ Database ->
+       name : SQLite
+    version : 3.7.2
+      major : 3
+      minor : 0
+2014-07-28 15:21:17,441 DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl ~ Driver ->
+       name : SQLiteJDBC
+    version : native
+      major : 1
+      minor : 1
+2014-07-28 15:21:17,441 DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl ~ JDBC version : 2.1
+2014-07-28 15:21:17,460 INFO  org.hibernate.dialect.Dialect ~ HHH000400: Using dialect: org.hibernate.dialect.SQLiteDialect
+2014-07-28 15:21:17,470 INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder ~ HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [2] less than 4
+2014-07-28 15:21:17,477 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl ~ Initializing service [role=org.hibernate.service.jta.platform.spi.JtaPlatform]
+2014-07-28 15:21:17,480 DEBUG org.hibernate.cfg.SettingsFactory ~ Automatic flush during beforeCompletion(): disabled
+2014-07-28 15:21:17,480 DEBUG org.hibernate.cfg.SettingsFactory ~ Automatic session close at end of transaction: disabled
+2014-07-28 15:21:17,480 DEBUG org.hibernate.cfg.SettingsFactory ~ Scrollable result sets: disabled
+2014-07-28 15:21:17,480 DEBUG org.hibernate.cfg.SettingsFactory ~ Wrap result sets: disabled
+2014-07-28 15:21:17,480 DEBUG org.hibernate.cfg.SettingsFactory ~ JDBC3 getGeneratedKeys(): disabled
+2014-07-28 15:21:17,480 DEBUG org.hibernate.cfg.SettingsFactory ~ multi-tenancy strategy : NONE
+2014-07-28 15:21:17,480 DEBUG org.hibernate.cfg.SettingsFactory ~ Connection release mode: auto
+2014-07-28 15:21:17,480 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl ~ Initializing service [role=org.hibernate.engine.transaction.spi.TransactionFactory]
+2014-07-28 15:21:17,480 INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator ~ HHH000399: Using default transaction strategy (direct JDBC transactions)
+2014-07-28 15:21:17,483 TRACE org.hibernate.loader.BatchFetchStyle ~ Interpreting BatchFetchStyle from setting : null
+2014-07-28 15:21:17,483 DEBUG org.hibernate.cfg.SettingsFactory ~ Using BatchFetchStyle : LEGACY
+2014-07-28 15:21:17,483 DEBUG org.hibernate.cfg.SettingsFactory ~ Default batch fetch size: 1
+2014-07-28 15:21:17,483 DEBUG org.hibernate.cfg.SettingsFactory ~ Generate SQL with comments: disabled
+2014-07-28 15:21:17,483 DEBUG org.hibernate.cfg.SettingsFactory ~ Order SQL updates by primary key: disabled
+2014-07-28 15:21:17,484 DEBUG org.hibernate.cfg.SettingsFactory ~ Order SQL inserts for batching: disabled
+2014-07-28 15:21:17,484 DEBUG org.hibernate.cfg.SettingsFactory ~ Default null ordering: none
+2014-07-28 15:21:17,484 DEBUG org.hibernate.cfg.SettingsFactory ~ Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+2014-07-28 15:21:17,485 INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory ~ HHH000397: Using ASTQueryTranslatorFactory
+2014-07-28 15:21:17,486 DEBUG org.hibernate.cfg.SettingsFactory ~ Query language substitutions: {}
+2014-07-28 15:21:17,486 DEBUG org.hibernate.cfg.SettingsFactory ~ JPA-QL strict compliance: disabled
+2014-07-28 15:21:17,486 DEBUG org.hibernate.cfg.SettingsFactory ~ Second-level cache: enabled
+2014-07-28 15:21:17,486 DEBUG org.hibernate.cfg.SettingsFactory ~ Query cache: disabled
+2014-07-28 15:21:17,486 DEBUG org.hibernate.cfg.SettingsFactory ~ Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2014-07-28 15:21:17,487 DEBUG org.hibernate.cfg.SettingsFactory ~ org.hibernate.cache.internal.NoCachingRegionFactory did not provide constructor accepting java.util.Properties; attempting no-arg constructor.
+2014-07-28 15:21:17,487 DEBUG org.hibernate.cfg.SettingsFactory ~ Optimize cache for minimal puts: disabled
+2014-07-28 15:21:17,487 DEBUG org.hibernate.cfg.SettingsFactory ~ Structured second-level cache entries: disabled
+2014-07-28 15:21:17,487 DEBUG org.hibernate.cfg.SettingsFactory ~ Second-level cache direct-reference entries: disabled
+2014-07-28 15:21:17,487 DEBUG org.hibernate.cfg.SettingsFactory ~ Statistics: disabled
+2014-07-28 15:21:17,487 DEBUG org.hibernate.cfg.SettingsFactory ~ Deleted entity synthetic identifier rollback: disabled
+2014-07-28 15:21:17,487 DEBUG org.hibernate.cfg.SettingsFactory ~ Default entity-mode: pojo
+2014-07-28 15:21:17,487 DEBUG org.hibernate.cfg.SettingsFactory ~ Named query checking : enabled
+2014-07-28 15:21:17,487 DEBUG org.hibernate.cfg.SettingsFactory ~ Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-07-28 15:21:17,487 DEBUG org.hibernate.cfg.SettingsFactory ~ Allow initialization of lazy state outside session : : disabled
+2014-07-28 15:21:17,487 DEBUG org.hibernate.cfg.SettingsFactory ~ JTA Track by Thread: enabled
+2014-07-28 15:21:17,497 DEBUG org.hibernate.internal.SessionFactoryImpl ~ Building session factory
+2014-07-28 15:21:17,498 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl ~ Initializing service [role=org.hibernate.service.spi.SessionFactoryServiceRegistryFactory]
+2014-07-28 15:21:17,503 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl ~ Initializing service [role=org.hibernate.engine.spi.CacheImplementor]
+2014-07-28 15:21:17,506 TRACE org.hibernate.type.TypeFactory ~ Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@74a21183
+2014-07-28 15:21:17,507 DEBUG org.hibernate.internal.SessionFactoryImpl ~ Session factory constructed with filter configurations : {}
+2014-07-28 15:21:17,507 DEBUG org.hibernate.internal.SessionFactoryImpl ~ Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\bin, java.vm.version=24.51-b03, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, idea.launcher.port=7541, user.script=, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\r.harkins\Projects\metrolink, java.runtime.version=1.7.0_51-b13, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hibernate.current_session_context_class=thread, java.endorsed.dirs=C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\R92FB~1.HAR\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, sun.jnu.encoding=Cp1252, java.library.path=C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.6.0_37\bin;C:\Program Files\Java\jre7\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Common Files\Lenovo;C:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\SWTOOLS\ReadyApps;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files (x86)\Common Files\Lenovo;C:\Users\r.harkins\workspace\BHautomation\;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Program Files\TortoiseGit\bin;C:\Users\r.harkins\devel\Bullhorn\tools\apache-ant-1.9.2\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Google\Google Apps Migration\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Google\Google Apps Sync\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.6\;C:\Users\r.harkins\devel\Bullhorn\tools\grails-2.3.7\bin;C:\Users\r.harkins\devel\Bullhorn\tools\Groovy-2.2.2\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\OpenVPN\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.1.0\bin;C:\Users\r.harkins\workspace\BHautomation;C:\sqlite;., hibernate.connection.datasource=org.springframework.jdbc.datasource.DriverManagerDataSource@26f57041, java.specification.name=Java Platform API Specification, java.class.version=51.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\r.harkins, user.timezone=America/Chicago, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.7, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 13.1.4\bin, file.encoding=UTF-8, user.name=r.harkins, java.class.path=C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\charsets.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\deploy.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\javaws.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\jce.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\jfr.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\jfxrt.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\jsse.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\management-agent.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\plugin.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\resources.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\rt.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\ext\access-bridge-64.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\ext\dnsns.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\ext\jaccess.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\ext\localedata.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\ext\sunec.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\ext\sunjce_provider.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\ext\sunmscapi.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\ext\zipfs.jar;C:\Users\r.harkins\Projects\metrolink\target\classes;C:\Users\r.harkins\.m2\repository\org\springframework\spring-context\4.0.5.RELEASE\spring-context-4.0.5.RELEASE.jar;C:\Users\r.harkins\.m2\repository\org\springframework\spring-aop\4.0.5.RELEASE\spring-aop-4.0.5.RELEASE.jar;C:\Users\r.harkins\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\r.harkins\.m2\repository\org\springframework\spring-beans\4.0.5.RELEASE\spring-beans-4.0.5.RELEASE.jar;C:\Users\r.harkins\.m2\repository\org\springframework\spring-core\4.0.5.RELEASE\spring-core-4.0.5.RELEASE.jar;C:\Users\r.harkins\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\r.harkins\.m2\repository\org\springframework\spring-expression\4.0.5.RELEASE\spring-expression-4.0.5.RELEASE.jar;C:\Users\r.harkins\.m2\repository\org\springframework\spring-orm\4.0.5.RELEASE\spring-orm-4.0.5.RELEASE.jar;C:\Users\r.harkins\.m2\repository\org\springframework\spring-jdbc\4.0.5.RELEASE\spring-jdbc-4.0.5.RELEASE.jar;C:\Users\r.harkins\.m2\repository\org\springframework\spring-tx\4.0.5.RELEASE\spring-tx-4.0.5.RELEASE.jar;C:\Users\r.harkins\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\r.harkins\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\r.harkins\.m2\repository\org\xerial\sqlite-jdbc\3.7.2\sqlite-jdbc-3.7.2.jar;C:\Users\r.harkins\.m2\repository\org\hibernate\hibernate-core\4.2.0.Final\hibernate-core-4.2.0.Final.jar;C:\Users\r.harkins\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\r.harkins\.m2\repository\org\jboss\logging\jboss-logging\3.1.0.GA\jboss-logging-3.1.0.GA.jar;C:\Users\r.harkins\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.1_spec\1.0.0.Final\jboss-transaction-api_1.1_spec-1.0.0.Final.jar;C:\Users\r.harkins\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\r.harkins\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.1.Final\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\r.harkins\.m2\repository\org\javassist\javassist\3.15.0-GA\javassist-3.15.0-GA.jar;C:\Users\r.harkins\.m2\repository\org\hibernate\common\hibernate-commons-annotations\4.0.1.Final\hibernate-commons-annotations-4.0.1.Final.jar;C:\Users\r.harkins\.m2\repository\org\hibernate\hibernate-annotations\3.5.6-Final\hibernate-annotations-3.5.6-Final.jar;C:\Users\r.harkins\.m2\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Final\hibernate-commons-annotations-3.2.0.Final.jar;C:\Users\r.harkins\.m2\repository\org\slf4j\slf4j-api\1.5.8\slf4j-api-1.5.8.jar;C:\Users\r.harkins\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\r.harkins\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\r.harkins\.m2\repository\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 13.1.4\lib\idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, hibernate.classLoader.application=sun.misc.Launcher$AppClassLoader@2e2e1b6c, java.vm.specification.version=1.7, sun.arch.data.model=64, java.home=C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre, sun.java.command=com.intellij.rt.execution.application.AppMain com.ricketysplit.metrolink.Metrolink, hibernate.dialect=org.hibernate.dialect.SQLiteDialect, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.7.0_51, java.ext.dirs=C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\resources.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\rt.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\sunrsasign.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\jsse.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\jce.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\charsets.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\lib\jfr.jar;C:\Users\r.harkins\devel\Bullhorn\tools\jdk1.7.0_51\jre\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=amd64}
+2014-07-28 15:21:17,517 DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory ~ Setting dialect [org.hibernate.dialect.SQLiteDialect]
+2014-07-28 15:21:17,517 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl ~ Initializing service [role=org.hibernate.persister.spi.PersisterFactory]
+2014-07-28 15:21:17,522 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl ~ Initializing service [role=org.hibernate.persister.spi.PersisterClassResolver]
+2014-07-28 15:21:17,597 TRACE org.hibernate.persister.entity.AbstractPropertyMapping ~ Skipping duplicate registration of path [_identifierMapper], existing type = [org.hibernate.type.EmbeddedComponentType@398fbc90], incoming type = [org.hibernate.type.EmbeddedComponentType@398fbc90]
+2014-07-28 15:21:17,597 TRACE org.hibernate.persister.entity.AbstractPropertyMapping ~ Skipping duplicate registration of path [_identifierMapper.stop_id], existing type = [org.hibernate.type.StringType@202d13df], incoming type = [org.hibernate.type.StringType@202d13df]
+2014-07-28 15:21:17,597 TRACE org.hibernate.persister.entity.AbstractPropertyMapping ~ Skipping duplicate registration of path [_identifierMapper.trip_id], existing type = [org.hibernate.type.StringType@202d13df], incoming type = [org.hibernate.type.StringType@202d13df]
+2014-07-28 15:21:17,597 TRACE org.hibernate.persister.entity.AbstractPropertyMapping ~ Skipping duplicate registration of path [stop_id], existing type = [org.hibernate.type.StringType@202d13df], incoming type = [org.hibernate.type.StringType@202d13df]
+2014-07-28 15:21:17,597 TRACE org.hibernate.persister.entity.AbstractPropertyMapping ~ Skipping duplicate registration of path [trip_id], existing type = [org.hibernate.type.StringType@202d13df], incoming type = [org.hibernate.type.StringType@202d13df]
+2014-07-28 15:21:17,597 TRACE org.hibernate.persister.entity.AbstractPropertyMapping ~ Skipping duplicate registration of path [arrivalTime], existing type = [org.hibernate.type.StringType@202d13df], incoming type = [org.hibernate.type.StringType@202d13df]
+2014-07-28 15:21:17,598 TRACE org.hibernate.persister.entity.AbstractPropertyMapping ~ Skipping duplicate registration of path [stop_id], existing type = [org.hibernate.type.StringType@202d13df], incoming type = [org.hibernate.type.StringType@202d13df]
+2014-07-28 15:21:17,598 TRACE org.hibernate.persister.entity.AbstractPropertyMapping ~ Skipping duplicate registration of path [trip_id], existing type = [org.hibernate.type.StringType@202d13df], incoming type = [org.hibernate.type.StringType@202d13df]
+2014-07-28 15:21:17,600 DEBUG org.hibernate.persister.entity.AbstractEntityPersister ~ Static SQL for entity: com.ricketysplit.metrolink.StopTimes
+2014-07-28 15:21:17,600 DEBUG org.hibernate.persister.entity.AbstractEntityPersister ~  Version select: select stop_id, trip_id from stop_times where stop_id =? and trip_id =?
+2014-07-28 15:21:17,600 DEBUG org.hibernate.persister.entity.AbstractEntityPersister ~  Snapshot select: select stoptimes_.stop_id, stoptimes_.trip_id, stoptimes_.arrival_time as arrival3_0_ from stop_times stoptimes_ where stoptimes_.stop_id=? and stoptimes_.trip_id=?
+2014-07-28 15:21:17,600 DEBUG org.hibernate.persister.entity.AbstractEntityPersister ~  Insert 0: insert into stop_times (arrival_time, stop_id, trip_id) values (?, ?, ?)
+2014-07-28 15:21:17,600 DEBUG org.hibernate.persister.entity.AbstractEntityPersister ~  Update 0: update stop_times set arrival_time=? where stop_id=? and trip_id=?
+2014-07-28 15:21:17,600 DEBUG org.hibernate.persister.entity.AbstractEntityPersister ~  Delete 0: delete from stop_times where stop_id=? and trip_id=?
+2014-07-28 15:21:17,603 TRACE org.hibernate.persister.entity.AbstractPropertyMapping ~ Skipping duplicate registration of path [stopDescription], existing type = [org.hibernate.type.StringType@202d13df], incoming type = [org.hibernate.type.StringType@202d13df]
+2014-07-28 15:21:17,603 TRACE org.hibernate.persister.entity.AbstractPropertyMapping ~ Skipping duplicate registration of path [stopName], existing type = [org.hibernate.type.StringType@202d13df], incoming type = [org.hibernate.type.StringType@202d13df]
+2014-07-28 15:21:17,605 DEBUG org.hibernate.persister.entity.AbstractEntityPersister ~ Static SQL for entity: com.ricketysplit.metrolink.Stop
+2014-07-28 15:21:17,605 DEBUG org.hibernate.persister.entity.AbstractEntityPersister ~  Version select: select stop_id from stops where stop_id =?
+2014-07-28 15:21:17,605 DEBUG org.hibernate.persister.entity.AbstractEntityPersister ~  Snapshot select: select stop_.stop_id, stop_.stop_desc as stop2_1_, stop_.stop_name as stop3_1_ from stops stop_ where stop_.stop_id=?
+2014-07-28 15:21:17,605 DEBUG org.hibernate.persister.entity.AbstractEntityPersister ~  Insert 0: insert into stops (stop_desc, stop_name, stop_id) values (?, ?, ?)
+2014-07-28 15:21:17,605 DEBUG org.hibernate.persister.entity.AbstractEntityPersister ~  Update 0: update stops set stop_desc=?, stop_name=? where stop_id=?
+2014-07-28 15:21:17,605 DEBUG org.hibernate.persister.entity.AbstractEntityPersister ~  Delete 0: delete from stops where stop_id=?
+2014-07-28 15:21:17,605 DEBUG org.hibernate.persister.entity.AbstractEntityPersister ~  Identity insert: insert into stops (stop_desc, stop_name) values (?, ?)
+2014-07-28 15:21:17,619 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.StopTimes [NONE]: select stoptimes0_.stop_id as stop1_0_0_, stoptimes0_.trip_id as trip2_0_0_, stoptimes0_.arrival_time as arrival3_0_0_ from stop_times stoptimes0_ where stoptimes0_.stop_id=? and stoptimes0_.trip_id=?
+2014-07-28 15:21:17,619 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.StopTimes [READ]: select stoptimes0_.stop_id as stop1_0_0_, stoptimes0_.trip_id as trip2_0_0_, stoptimes0_.arrival_time as arrival3_0_0_ from stop_times stoptimes0_ where stoptimes0_.stop_id=? and stoptimes0_.trip_id=?
+2014-07-28 15:21:17,620 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.StopTimes [UPGRADE]: select stoptimes0_.stop_id as stop1_0_0_, stoptimes0_.trip_id as trip2_0_0_, stoptimes0_.arrival_time as arrival3_0_0_ from stop_times stoptimes0_ where stoptimes0_.stop_id=? and stoptimes0_.trip_id=?
+2014-07-28 15:21:17,620 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.StopTimes [UPGRADE_NOWAIT]: select stoptimes0_.stop_id as stop1_0_0_, stoptimes0_.trip_id as trip2_0_0_, stoptimes0_.arrival_time as arrival3_0_0_ from stop_times stoptimes0_ where stoptimes0_.stop_id=? and stoptimes0_.trip_id=?
+2014-07-28 15:21:17,620 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.StopTimes [FORCE]: select stoptimes0_.stop_id as stop1_0_0_, stoptimes0_.trip_id as trip2_0_0_, stoptimes0_.arrival_time as arrival3_0_0_ from stop_times stoptimes0_ where stoptimes0_.stop_id=? and stoptimes0_.trip_id=?
+2014-07-28 15:21:17,620 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.StopTimes [PESSIMISTIC_READ]: select stoptimes0_.stop_id as stop1_0_0_, stoptimes0_.trip_id as trip2_0_0_, stoptimes0_.arrival_time as arrival3_0_0_ from stop_times stoptimes0_ where stoptimes0_.stop_id=? and stoptimes0_.trip_id=?
+2014-07-28 15:21:17,620 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.StopTimes [PESSIMISTIC_WRITE]: select stoptimes0_.stop_id as stop1_0_0_, stoptimes0_.trip_id as trip2_0_0_, stoptimes0_.arrival_time as arrival3_0_0_ from stop_times stoptimes0_ where stoptimes0_.stop_id=? and stoptimes0_.trip_id=?
+2014-07-28 15:21:17,621 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.StopTimes [PESSIMISTIC_FORCE_INCREMENT]: select stoptimes0_.stop_id as stop1_0_0_, stoptimes0_.trip_id as trip2_0_0_, stoptimes0_.arrival_time as arrival3_0_0_ from stop_times stoptimes0_ where stoptimes0_.stop_id=? and stoptimes0_.trip_id=?
+2014-07-28 15:21:17,621 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.StopTimes [OPTIMISTIC]: select stoptimes0_.stop_id as stop1_0_0_, stoptimes0_.trip_id as trip2_0_0_, stoptimes0_.arrival_time as arrival3_0_0_ from stop_times stoptimes0_ where stoptimes0_.stop_id=? and stoptimes0_.trip_id=?
+2014-07-28 15:21:17,621 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.StopTimes [OPTIMISTIC_FORCE_INCREMENT]: select stoptimes0_.stop_id as stop1_0_0_, stoptimes0_.trip_id as trip2_0_0_, stoptimes0_.arrival_time as arrival3_0_0_ from stop_times stoptimes0_ where stoptimes0_.stop_id=? and stoptimes0_.trip_id=?
+2014-07-28 15:21:17,626 DEBUG org.hibernate.loader.Loader ~ Static select for action ACTION_MERGE on entity com.ricketysplit.metrolink.StopTimes: select stoptimes0_.stop_id as stop1_0_0_, stoptimes0_.trip_id as trip2_0_0_, stoptimes0_.arrival_time as arrival3_0_0_ from stop_times stoptimes0_ where stoptimes0_.stop_id=? and stoptimes0_.trip_id=?
+2014-07-28 15:21:17,626 DEBUG org.hibernate.loader.Loader ~ Static select for action ACTION_REFRESH on entity com.ricketysplit.metrolink.StopTimes: select stoptimes0_.stop_id as stop1_0_0_, stoptimes0_.trip_id as trip2_0_0_, stoptimes0_.arrival_time as arrival3_0_0_ from stop_times stoptimes0_ where stoptimes0_.stop_id=? and stoptimes0_.trip_id=?
+2014-07-28 15:21:17,627 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.Stop [NONE]: select stop0_.stop_id as stop1_1_0_, stop0_.stop_desc as stop2_1_0_, stop0_.stop_name as stop3_1_0_ from stops stop0_ where stop0_.stop_id=?
+2014-07-28 15:21:17,627 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.Stop [READ]: select stop0_.stop_id as stop1_1_0_, stop0_.stop_desc as stop2_1_0_, stop0_.stop_name as stop3_1_0_ from stops stop0_ where stop0_.stop_id=?
+2014-07-28 15:21:17,627 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.Stop [UPGRADE]: select stop0_.stop_id as stop1_1_0_, stop0_.stop_desc as stop2_1_0_, stop0_.stop_name as stop3_1_0_ from stops stop0_ where stop0_.stop_id=?
+2014-07-28 15:21:17,628 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.Stop [UPGRADE_NOWAIT]: select stop0_.stop_id as stop1_1_0_, stop0_.stop_desc as stop2_1_0_, stop0_.stop_name as stop3_1_0_ from stops stop0_ where stop0_.stop_id=?
+2014-07-28 15:21:17,628 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.Stop [FORCE]: select stop0_.stop_id as stop1_1_0_, stop0_.stop_desc as stop2_1_0_, stop0_.stop_name as stop3_1_0_ from stops stop0_ where stop0_.stop_id=?
+2014-07-28 15:21:17,628 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.Stop [PESSIMISTIC_READ]: select stop0_.stop_id as stop1_1_0_, stop0_.stop_desc as stop2_1_0_, stop0_.stop_name as stop3_1_0_ from stops stop0_ where stop0_.stop_id=?
+2014-07-28 15:21:17,628 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.Stop [PESSIMISTIC_WRITE]: select stop0_.stop_id as stop1_1_0_, stop0_.stop_desc as stop2_1_0_, stop0_.stop_name as stop3_1_0_ from stops stop0_ where stop0_.stop_id=?
+2014-07-28 15:21:17,628 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.Stop [PESSIMISTIC_FORCE_INCREMENT]: select stop0_.stop_id as stop1_1_0_, stop0_.stop_desc as stop2_1_0_, stop0_.stop_name as stop3_1_0_ from stops stop0_ where stop0_.stop_id=?
+2014-07-28 15:21:17,628 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.Stop [OPTIMISTIC]: select stop0_.stop_id as stop1_1_0_, stop0_.stop_desc as stop2_1_0_, stop0_.stop_name as stop3_1_0_ from stops stop0_ where stop0_.stop_id=?
+2014-07-28 15:21:17,629 DEBUG org.hibernate.loader.Loader ~ Static select for entity com.ricketysplit.metrolink.Stop [OPTIMISTIC_FORCE_INCREMENT]: select stop0_.stop_id as stop1_1_0_, stop0_.stop_desc as stop2_1_0_, stop0_.stop_name as stop3_1_0_ from stops stop0_ where stop0_.stop_id=?
+2014-07-28 15:21:17,629 DEBUG org.hibernate.loader.Loader ~ Static select for action ACTION_MERGE on entity com.ricketysplit.metrolink.Stop: select stop0_.stop_id as stop1_1_0_, stop0_.stop_desc as stop2_1_0_, stop0_.stop_name as stop3_1_0_ from stops stop0_ where stop0_.stop_id=?
+2014-07-28 15:21:17,629 DEBUG org.hibernate.loader.Loader ~ Static select for action ACTION_REFRESH on entity com.ricketysplit.metrolink.Stop: select stop0_.stop_id as stop1_1_0_, stop0_.stop_desc as stop2_1_0_, stop0_.stop_name as stop3_1_0_ from stops stop0_ where stop0_.stop_id=?
+2014-07-28 15:21:17,656 DEBUG org.hibernate.internal.SessionFactoryRegistry ~ Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@49fe0f27
+2014-07-28 15:21:17,657 DEBUG org.hibernate.internal.SessionFactoryRegistry ~ Registering SessionFactory: 491b1880-25cf-44ae-b9d4-e15b874bfe6a (<unnamed>)
+2014-07-28 15:21:17,657 DEBUG org.hibernate.internal.SessionFactoryRegistry ~ Not binding SessionFactory to JNDI, no JNDI name configured
+2014-07-28 15:21:17,657 DEBUG org.hibernate.internal.SessionFactoryImpl ~ Instantiated session factory
+2014-07-28 15:21:17,660 DEBUG org.hibernate.internal.SessionFactoryImpl ~ Checking 0 named HQL queries
+2014-07-28 15:21:17,660 DEBUG org.hibernate.internal.SessionFactoryImpl ~ Checking 0 named SQL queries
+2014-07-28 15:21:17,660 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl ~ Initializing service [role=org.hibernate.service.config.spi.ConfigurationService]
+2014-07-28 15:21:17,662 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl ~ Initializing service [role=org.hibernate.stat.spi.StatisticsImplementor]
+2014-07-28 15:21:17,665 DEBUG org.hibernate.stat.internal.StatisticsInitiator ~ Statistics initialized [enabled=false]
+2014-07-28 15:21:17,744 TRACE org.hibernate.internal.SessionImpl ~ Opened session at timestamp: 14065788777
+2014-07-28 15:21:17,775 TRACE org.hibernate.context.internal.ThreadLocalSessionContext ~ Allowing method [beginTransaction] in non-transacted context
+2014-07-28 15:21:17,775 TRACE org.hibernate.context.internal.ThreadLocalSessionContext ~ Allowing proxied method [beginTransaction] to proceed to real session
+2014-07-28 15:21:17,776 DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl ~ begin
+2014-07-28 15:21:17,776 DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl ~ Obtaining JDBC connection
+2014-07-28 15:21:17,776 DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl ~ Obtained JDBC connection
+2014-07-28 15:21:17,776 DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction ~ initial autocommit status: true
+2014-07-28 15:21:17,776 DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction ~ disabling autocommit
+2014-07-28 15:21:17,776 TRACE org.hibernate.context.internal.ThreadLocalSessionContext ~ Allowing proxied method [createCriteria] to proceed to real session
+2014-07-28 15:21:17,793 TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl ~ Initializing service [role=org.hibernate.event.service.spi.EventListenerRegistry]
+2014-07-28 15:21:17,818 DEBUG org.hibernate.SQL ~ select this_.stop_id as stop1_1_0_, this_.stop_desc as stop2_1_0_, this_.stop_name as stop3_1_0_ from stops this_ where this_.stop_name like ?
+2014-07-28 15:21:17,819 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Registering statement [org.sqlite.PrepStmt@4646ebd8]
+2014-07-28 15:21:17,819 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Registering last query statement [org.sqlite.PrepStmt@4646ebd8]
+2014-07-28 15:21:17,821 TRACE org.hibernate.type.descriptor.sql.BasicBinder ~ binding parameter [1] as [VARCHAR] - %METROLINK STATION%
+2014-07-28 15:21:17,825 TRACE org.hibernate.loader.Loader ~ Bound [2] parameters total
+2014-07-28 15:21:17,827 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Registering result set [org.sqlite.RS@5345b85a]
+2014-07-28 15:21:17,827 TRACE org.hibernate.loader.Loader ~ Processing result set
+2014-07-28 15:21:17,827 DEBUG org.hibernate.loader.Loader ~ Result set row: 0
+2014-07-28 15:21:17,828 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [14758] as column [stop1_1_0_]
+2014-07-28 15:21:17,829 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#14758]
+2014-07-28 15:21:17,829 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#14758]
+2014-07-28 15:21:17,831 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#14758]
+2014-07-28 15:21:17,832 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,832 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [CLAYTON METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,832 DEBUG org.hibernate.loader.Loader ~ Result set row: 1
+2014-07-28 15:21:17,833 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [14754] as column [stop1_1_0_]
+2014-07-28 15:21:17,833 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#14754]
+2014-07-28 15:21:17,833 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#14754]
+2014-07-28 15:21:17,833 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#14754]
+2014-07-28 15:21:17,833 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,833 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [SUNNEN METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,833 DEBUG org.hibernate.loader.Loader ~ Result set row: 2
+2014-07-28 15:21:17,833 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [14755] as column [stop1_1_0_]
+2014-07-28 15:21:17,833 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#14755]
+2014-07-28 15:21:17,833 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#14755]
+2014-07-28 15:21:17,833 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#14755]
+2014-07-28 15:21:17,833 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,833 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [MAPLEWOOD METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,833 DEBUG org.hibernate.loader.Loader ~ Result set row: 3
+2014-07-28 15:21:17,833 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [14756] as column [stop1_1_0_]
+2014-07-28 15:21:17,833 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#14756]
+2014-07-28 15:21:17,833 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#14756]
+2014-07-28 15:21:17,833 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#14756]
+2014-07-28 15:21:17,833 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,834 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [BRENTWOOD METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,834 DEBUG org.hibernate.loader.Loader ~ Result set row: 4
+2014-07-28 15:21:17,834 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [14757] as column [stop1_1_0_]
+2014-07-28 15:21:17,834 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#14757]
+2014-07-28 15:21:17,834 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#14757]
+2014-07-28 15:21:17,834 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#14757]
+2014-07-28 15:21:17,834 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,834 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [RICHMOND HEIGHTS METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,834 DEBUG org.hibernate.loader.Loader ~ Result set row: 5
+2014-07-28 15:21:17,834 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [14753] as column [stop1_1_0_]
+2014-07-28 15:21:17,834 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#14753]
+2014-07-28 15:21:17,834 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#14753]
+2014-07-28 15:21:17,834 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#14753]
+2014-07-28 15:21:17,834 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,834 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [SHREWSBURY METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,834 DEBUG org.hibernate.loader.Loader ~ Result set row: 6
+2014-07-28 15:21:17,834 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10599] as column [stop1_1_0_]
+2014-07-28 15:21:17,835 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10599]
+2014-07-28 15:21:17,835 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10599]
+2014-07-28 15:21:17,835 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10599]
+2014-07-28 15:21:17,835 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,835 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [EMERSON PARK METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,835 DEBUG org.hibernate.loader.Loader ~ Result set row: 7
+2014-07-28 15:21:17,835 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10602] as column [stop1_1_0_]
+2014-07-28 15:21:17,835 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10602]
+2014-07-28 15:21:17,835 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10602]
+2014-07-28 15:21:17,835 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10602]
+2014-07-28 15:21:17,835 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,835 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [FAIRVIEW HEIGHTS METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,835 DEBUG org.hibernate.loader.Loader ~ Result set row: 8
+2014-07-28 15:21:17,835 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10601] as column [stop1_1_0_]
+2014-07-28 15:21:17,835 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10601]
+2014-07-28 15:21:17,835 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10601]
+2014-07-28 15:21:17,836 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10601]
+2014-07-28 15:21:17,836 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,836 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [WASHINGTON PARK METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,836 DEBUG org.hibernate.loader.Loader ~ Result set row: 9
+2014-07-28 15:21:17,836 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10629] as column [stop1_1_0_]
+2014-07-28 15:21:17,836 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10629]
+2014-07-28 15:21:17,836 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10629]
+2014-07-28 15:21:17,836 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10629]
+2014-07-28 15:21:17,836 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,836 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [ROCK ROAD METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,836 DEBUG org.hibernate.loader.Loader ~ Result set row: 10
+2014-07-28 15:21:17,836 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10624] as column [stop1_1_0_]
+2014-07-28 15:21:17,836 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10624]
+2014-07-28 15:21:17,836 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10624]
+2014-07-28 15:21:17,837 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10624]
+2014-07-28 15:21:17,837 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,837 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [GRAND METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,837 DEBUG org.hibernate.loader.Loader ~ Result set row: 11
+2014-07-28 15:21:17,837 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10625] as column [stop1_1_0_]
+2014-07-28 15:21:17,837 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10625]
+2014-07-28 15:21:17,837 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10625]
+2014-07-28 15:21:17,837 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10625]
+2014-07-28 15:21:17,837 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,837 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [CENTRAL WEST END METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,837 DEBUG org.hibernate.loader.Loader ~ Result set row: 12
+2014-07-28 15:21:17,837 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10626] as column [stop1_1_0_]
+2014-07-28 15:21:17,837 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10626]
+2014-07-28 15:21:17,837 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10626]
+2014-07-28 15:21:17,837 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10626]
+2014-07-28 15:21:17,837 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,837 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [FOREST PARK METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,837 DEBUG org.hibernate.loader.Loader ~ Result set row: 13
+2014-07-28 15:21:17,837 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10627] as column [stop1_1_0_]
+2014-07-28 15:21:17,837 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10627]
+2014-07-28 15:21:17,838 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10627]
+2014-07-28 15:21:17,838 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10627]
+2014-07-28 15:21:17,838 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,838 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [DELMAR METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,838 DEBUG org.hibernate.loader.Loader ~ Result set row: 14
+2014-07-28 15:21:17,838 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [11103] as column [stop1_1_0_]
+2014-07-28 15:21:17,838 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#11103]
+2014-07-28 15:21:17,838 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#11103]
+2014-07-28 15:21:17,838 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#11103]
+2014-07-28 15:21:17,839 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,839 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [COLLEGE METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,839 DEBUG org.hibernate.loader.Loader ~ Result set row: 15
+2014-07-28 15:21:17,839 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10619] as column [stop1_1_0_]
+2014-07-28 15:21:17,839 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10619]
+2014-07-28 15:21:17,839 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10619]
+2014-07-28 15:21:17,839 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10619]
+2014-07-28 15:21:17,839 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,839 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [CONVENTION CENTER METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,840 DEBUG org.hibernate.loader.Loader ~ Result set row: 16
+2014-07-28 15:21:17,840 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10603] as column [stop1_1_0_]
+2014-07-28 15:21:17,840 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10603]
+2014-07-28 15:21:17,840 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10603]
+2014-07-28 15:21:17,840 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10603]
+2014-07-28 15:21:17,840 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,840 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [MEMORIAL HOSPITAL METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,840 DEBUG org.hibernate.loader.Loader ~ Result set row: 17
+2014-07-28 15:21:17,840 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10604] as column [stop1_1_0_]
+2014-07-28 15:21:17,840 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10604]
+2014-07-28 15:21:17,840 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10604]
+2014-07-28 15:21:17,840 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10604]
+2014-07-28 15:21:17,840 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,840 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [SWANSEA METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,840 DEBUG org.hibernate.loader.Loader ~ Result set row: 18
+2014-07-28 15:21:17,840 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10605] as column [stop1_1_0_]
+2014-07-28 15:21:17,840 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10605]
+2014-07-28 15:21:17,841 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10605]
+2014-07-28 15:21:17,841 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10605]
+2014-07-28 15:21:17,841 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,841 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [BELLEVILLE METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,841 DEBUG org.hibernate.loader.Loader ~ Result set row: 19
+2014-07-28 15:21:17,841 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10628] as column [stop1_1_0_]
+2014-07-28 15:21:17,841 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10628]
+2014-07-28 15:21:17,841 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10628]
+2014-07-28 15:21:17,841 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10628]
+2014-07-28 15:21:17,841 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,841 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [WELLSTON METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,841 DEBUG org.hibernate.loader.Loader ~ Result set row: 20
+2014-07-28 15:21:17,841 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10622] as column [stop1_1_0_]
+2014-07-28 15:21:17,841 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10622]
+2014-07-28 15:21:17,841 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10622]
+2014-07-28 15:21:17,841 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10622]
+2014-07-28 15:21:17,841 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,841 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [CIVIC CENTER METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,842 DEBUG org.hibernate.loader.Loader ~ Result set row: 21
+2014-07-28 15:21:17,842 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10600] as column [stop1_1_0_]
+2014-07-28 15:21:17,842 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10600]
+2014-07-28 15:21:17,842 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10600]
+2014-07-28 15:21:17,842 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10600]
+2014-07-28 15:21:17,842 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,842 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [JJK CENTER METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,843 DEBUG org.hibernate.loader.Loader ~ Result set row: 22
+2014-07-28 15:21:17,843 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [14759] as column [stop1_1_0_]
+2014-07-28 15:21:17,843 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#14759]
+2014-07-28 15:21:17,843 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#14759]
+2014-07-28 15:21:17,843 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#14759]
+2014-07-28 15:21:17,843 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,843 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [FORSYTH METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,843 DEBUG org.hibernate.loader.Loader ~ Result set row: 23
+2014-07-28 15:21:17,843 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [13662] as column [stop1_1_0_]
+2014-07-28 15:21:17,843 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#13662]
+2014-07-28 15:21:17,843 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#13662]
+2014-07-28 15:21:17,843 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#13662]
+2014-07-28 15:21:17,843 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,843 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [STADIUM METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,843 DEBUG org.hibernate.loader.Loader ~ Result set row: 24
+2014-07-28 15:21:17,843 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10631] as column [stop1_1_0_]
+2014-07-28 15:21:17,843 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10631]
+2014-07-28 15:21:17,844 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10631]
+2014-07-28 15:21:17,844 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10631]
+2014-07-28 15:21:17,844 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,844 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [UMSL NORTH METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,844 DEBUG org.hibernate.loader.Loader ~ Result set row: 25
+2014-07-28 15:21:17,844 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [14761] as column [stop1_1_0_]
+2014-07-28 15:21:17,844 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#14761]
+2014-07-28 15:21:17,844 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#14761]
+2014-07-28 15:21:17,844 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#14761]
+2014-07-28 15:21:17,844 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,844 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [SKINKER METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,845 DEBUG org.hibernate.loader.Loader ~ Result set row: 26
+2014-07-28 15:21:17,845 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10620] as column [stop1_1_0_]
+2014-07-28 15:21:17,845 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10620]
+2014-07-28 15:21:17,845 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10620]
+2014-07-28 15:21:17,845 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10620]
+2014-07-28 15:21:17,845 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,845 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [8TH AND PINE METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,845 DEBUG org.hibernate.loader.Loader ~ Result set row: 27
+2014-07-28 15:21:17,845 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10623] as column [stop1_1_0_]
+2014-07-28 15:21:17,845 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10623]
+2014-07-28 15:21:17,845 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10623]
+2014-07-28 15:21:17,845 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10623]
+2014-07-28 15:21:17,845 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,845 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [UNION STA METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,846 DEBUG org.hibernate.loader.Loader ~ Result set row: 28
+2014-07-28 15:21:17,846 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10617] as column [stop1_1_0_]
+2014-07-28 15:21:17,846 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10617]
+2014-07-28 15:21:17,846 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10617]
+2014-07-28 15:21:17,846 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10617]
+2014-07-28 15:21:17,846 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,846 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [EAST RIVERFRONT METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,846 DEBUG org.hibernate.loader.Loader ~ Result set row: 29
+2014-07-28 15:21:17,846 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10616] as column [stop1_1_0_]
+2014-07-28 15:21:17,846 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10616]
+2014-07-28 15:21:17,846 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10616]
+2014-07-28 15:21:17,846 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10616]
+2014-07-28 15:21:17,846 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,846 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [5TH & MISSOURI METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,847 DEBUG org.hibernate.loader.Loader ~ Result set row: 30
+2014-07-28 15:21:17,847 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10618] as column [stop1_1_0_]
+2014-07-28 15:21:17,847 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10618]
+2014-07-28 15:21:17,847 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10618]
+2014-07-28 15:21:17,847 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10618]
+2014-07-28 15:21:17,847 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,847 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [ARCH LACLEDES METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,847 DEBUG org.hibernate.loader.Loader ~ Result set row: 31
+2014-07-28 15:21:17,847 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10634] as column [stop1_1_0_]
+2014-07-28 15:21:17,847 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10634]
+2014-07-28 15:21:17,847 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10634]
+2014-07-28 15:21:17,847 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10634]
+2014-07-28 15:21:17,847 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,847 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [LAMBERT MAIN TRML METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,848 DEBUG org.hibernate.loader.Loader ~ Result set row: 32
+2014-07-28 15:21:17,848 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10633] as column [stop1_1_0_]
+2014-07-28 15:21:17,848 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10633]
+2014-07-28 15:21:17,848 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10633]
+2014-07-28 15:21:17,848 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10633]
+2014-07-28 15:21:17,848 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,848 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [LAMBERT EAST TRML METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,848 DEBUG org.hibernate.loader.Loader ~ Result set row: 33
+2014-07-28 15:21:17,848 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10632] as column [stop1_1_0_]
+2014-07-28 15:21:17,848 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10632]
+2014-07-28 15:21:17,848 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10632]
+2014-07-28 15:21:17,848 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10632]
+2014-07-28 15:21:17,848 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,848 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [NORTH HANLEY METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,848 DEBUG org.hibernate.loader.Loader ~ Result set row: 34
+2014-07-28 15:21:17,848 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [14274] as column [stop1_1_0_]
+2014-07-28 15:21:17,848 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#14274]
+2014-07-28 15:21:17,849 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#14274]
+2014-07-28 15:21:17,849 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#14274]
+2014-07-28 15:21:17,849 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,849 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [SHILOH-SCOTT METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,850 DEBUG org.hibernate.loader.Loader ~ Result set row: 35
+2014-07-28 15:21:17,850 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [10630] as column [stop1_1_0_]
+2014-07-28 15:21:17,850 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.Stop#10630]
+2014-07-28 15:21:17,850 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.Stop#10630]
+2014-07-28 15:21:17,850 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.Stop#10630]
+2014-07-28 15:21:17,850 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [] as column [stop2_1_0_]
+2014-07-28 15:21:17,850 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [UMSL SOUTH METROLINK STATION] as column [stop3_1_0_]
+2014-07-28 15:21:17,850 TRACE org.hibernate.loader.Loader ~ Done processing result set (36 rows)
+2014-07-28 15:21:17,851 TRACE org.hibernate.loader.Loader ~ Total objects hydrated: 36
+2014-07-28 15:21:17,851 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#14758]
+2014-07-28 15:21:17,853 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#14758]
+2014-07-28 15:21:17,853 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#14754]
+2014-07-28 15:21:17,853 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#14754]
+2014-07-28 15:21:17,853 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#14755]
+2014-07-28 15:21:17,853 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#14755]
+2014-07-28 15:21:17,853 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#14756]
+2014-07-28 15:21:17,853 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#14756]
+2014-07-28 15:21:17,853 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#14757]
+2014-07-28 15:21:17,853 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#14757]
+2014-07-28 15:21:17,853 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#14753]
+2014-07-28 15:21:17,853 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#14753]
+2014-07-28 15:21:17,853 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10599]
+2014-07-28 15:21:17,853 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10599]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10602]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10602]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10601]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10601]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10629]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10629]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10624]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10624]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10625]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10625]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10626]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10626]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10627]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10627]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#11103]
+2014-07-28 15:21:17,854 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#11103]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10619]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10619]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10603]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10603]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10604]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10604]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10605]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10605]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10628]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10628]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10622]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10622]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10600]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10600]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#14759]
+2014-07-28 15:21:17,855 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#14759]
+2014-07-28 15:21:17,856 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#13662]
+2014-07-28 15:21:17,856 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#13662]
+2014-07-28 15:21:17,856 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10631]
+2014-07-28 15:21:17,856 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10631]
+2014-07-28 15:21:17,856 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#14761]
+2014-07-28 15:21:17,856 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#14761]
+2014-07-28 15:21:17,856 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10620]
+2014-07-28 15:21:17,856 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10620]
+2014-07-28 15:21:17,856 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10623]
+2014-07-28 15:21:17,856 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10623]
+2014-07-28 15:21:17,856 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10617]
+2014-07-28 15:21:17,856 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10617]
+2014-07-28 15:21:17,856 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10616]
+2014-07-28 15:21:17,856 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10616]
+2014-07-28 15:21:17,856 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10618]
+2014-07-28 15:21:17,857 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10618]
+2014-07-28 15:21:17,857 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10634]
+2014-07-28 15:21:17,857 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10634]
+2014-07-28 15:21:17,857 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10633]
+2014-07-28 15:21:17,857 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10633]
+2014-07-28 15:21:17,857 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10632]
+2014-07-28 15:21:17,857 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10632]
+2014-07-28 15:21:17,857 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#14274]
+2014-07-28 15:21:17,857 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#14274]
+2014-07-28 15:21:17,857 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.Stop#10630]
+2014-07-28 15:21:17,857 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.Stop#10630]
+2014-07-28 15:21:17,857 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Releasing statement [org.sqlite.PrepStmt@4646ebd8]
+2014-07-28 15:21:17,858 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Closing result set [org.sqlite.RS@5345b85a]
+2014-07-28 15:21:17,858 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Closing prepared statement [org.sqlite.PrepStmt@4646ebd8]
+2014-07-28 15:21:17,858 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Starting after statement execution processing [ON_CLOSE]
+2014-07-28 15:21:17,858 TRACE org.hibernate.engine.internal.StatefulPersistenceContext ~ Initializing non-lazy collections
+2014-07-28 15:21:17,858 TRACE org.hibernate.context.internal.ThreadLocalSessionContext ~ Allowing proxied method [getTransaction] to proceed to real session
+2014-07-28 15:21:17,858 DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl ~ committing
+2014-07-28 15:21:17,858 TRACE org.hibernate.internal.SessionImpl ~ Automatically flushing session
+2014-07-28 15:21:17,858 TRACE org.hibernate.event.internal.AbstractFlushingEventListener ~ Flushing session
+2014-07-28 15:21:17,859 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener ~ Processing flush-time cascades
+2014-07-28 15:21:17,860 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener ~ Dirty checking collections
+2014-07-28 15:21:17,860 TRACE org.hibernate.event.internal.AbstractFlushingEventListener ~ Flushing entities and processing referenced collections
+2014-07-28 15:21:17,862 TRACE org.hibernate.event.internal.AbstractFlushingEventListener ~ Processing unreferenced collections
+2014-07-28 15:21:17,862 TRACE org.hibernate.event.internal.AbstractFlushingEventListener ~ Scheduling collection removes/(re)creates/updates
+2014-07-28 15:21:17,863 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener ~ Flushed: 0 insertions, 0 updates, 0 deletions to 36 objects
+2014-07-28 15:21:17,863 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener ~ Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2014-07-28 15:21:17,863 DEBUG org.hibernate.internal.util.EntityPrinter ~ Listing entities:
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=FORSYTH METROLINK STATION, stopID=14759, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=CLAYTON METROLINK STATION, stopID=14758, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=RICHMOND HEIGHTS METROLINK STATION, stopID=14757, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=BRENTWOOD METROLINK STATION, stopID=14756, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=SKINKER METROLINK STATION, stopID=14761, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=SHILOH-SCOTT METROLINK STATION, stopID=14274, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=MAPLEWOOD METROLINK STATION, stopID=14755, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=SUNNEN METROLINK STATION, stopID=14754, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=SHREWSBURY METROLINK STATION, stopID=14753, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=EMERSON PARK METROLINK STATION, stopID=10599, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=MEMORIAL HOSPITAL METROLINK STATION, stopID=10603, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=FAIRVIEW HEIGHTS METROLINK STATION, stopID=10602, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=WASHINGTON PARK METROLINK STATION, stopID=10601, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=JJK CENTER METROLINK STATION, stopID=10600, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=SWANSEA METROLINK STATION, stopID=10604, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=BELLEVILLE METROLINK STATION, stopID=10605, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=5TH & MISSOURI METROLINK STATION, stopID=10616, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=EAST RIVERFRONT METROLINK STATION, stopID=10617, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=ARCH LACLEDES METROLINK STATION, stopID=10618, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=CONVENTION CENTER METROLINK STATION, stopID=10619, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.Stop{stopName=8TH AND PINE METROLINK STATION, stopID=10620, stopDescription=}
+2014-07-28 15:21:17,864 DEBUG org.hibernate.internal.util.EntityPrinter ~ More......
+2014-07-28 15:21:17,864 TRACE org.hibernate.event.internal.AbstractFlushingEventListener ~ Executing flush
+2014-07-28 15:21:17,865 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Starting after statement execution processing [ON_CLOSE]
+2014-07-28 15:21:17,865 TRACE org.hibernate.event.internal.AbstractFlushingEventListener ~ Post flush
+2014-07-28 15:21:17,865 TRACE org.hibernate.internal.SessionImpl ~ before transaction completion
+2014-07-28 15:21:17,865 DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction ~ committed JDBC Connection
+2014-07-28 15:21:17,865 DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction ~ re-enabling autocommit
+2014-07-28 15:21:17,865 TRACE org.hibernate.engine.transaction.internal.TransactionCoordinatorImpl ~ after transaction completion
+2014-07-28 15:21:17,865 TRACE org.hibernate.internal.SessionImpl ~ after transaction completion
+2014-07-28 15:21:17,865 TRACE org.hibernate.internal.SessionImpl ~ Automatically closing session
+2014-07-28 15:21:17,865 TRACE org.hibernate.internal.SessionImpl ~ Closing session
+2014-07-28 15:21:17,865 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@7c9d07e2]
+2014-07-28 15:21:17,865 TRACE org.hibernate.engine.jdbc.internal.LogicalConnectionImpl ~ Closing logical connection
+2014-07-28 15:21:17,866 DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl ~ Releasing JDBC connection
+2014-07-28 15:21:17,866 DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl ~ Released JDBC connection
+2014-07-28 15:21:17,866 TRACE org.hibernate.engine.jdbc.internal.LogicalConnectionImpl ~ Logical connection closed
+2014-07-28 15:21:22,103 TRACE org.hibernate.internal.SessionImpl ~ Opened session at timestamp: 14065788821
+2014-07-28 15:21:22,104 TRACE org.hibernate.context.internal.ThreadLocalSessionContext ~ Allowing method [beginTransaction] in non-transacted context
+2014-07-28 15:21:22,104 TRACE org.hibernate.context.internal.ThreadLocalSessionContext ~ Allowing proxied method [beginTransaction] to proceed to real session
+2014-07-28 15:21:22,104 DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl ~ begin
+2014-07-28 15:21:22,104 DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl ~ Obtaining JDBC connection
+2014-07-28 15:21:22,105 DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl ~ Obtained JDBC connection
+2014-07-28 15:21:22,105 DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction ~ initial autocommit status: true
+2014-07-28 15:21:22,105 DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction ~ disabling autocommit
+2014-07-28 15:21:22,106 TRACE org.hibernate.context.internal.ThreadLocalSessionContext ~ Allowing proxied method [createSQLQuery] to proceed to real session
+2014-07-28 15:21:22,128 TRACE org.hibernate.engine.query.spi.QueryPlanCache ~ Unable to locate native-sql query plan in cache; generating (SELECT arrival_time, stop_id, trip_id FROM stop_times a WHERE a.stop_id = :stoptimes AND arrival_time > (SELECT strftime('%H:%M:%S',datetime(strftime('%s','now'),'unixepoch','localtime'))) ORDER BY arrival_time LIMIT 1;)
+2014-07-28 15:21:22,130 TRACE org.hibernate.loader.custom.sql.SQLCustomQuery ~ Starting processing of sql query [SELECT arrival_time, stop_id, trip_id FROM stop_times a WHERE a.stop_id = :stoptimes AND arrival_time > (SELECT strftime('%H:%M:%S',datetime(strftime('%s','now'),'unixepoch','localtime'))) ORDER BY arrival_time LIMIT 1;]
+2014-07-28 15:21:22,133 TRACE org.hibernate.loader.custom.sql.SQLQueryReturnProcessor ~ Mapping alias [StopTimes] to entity-suffix [0_]
+2014-07-28 15:21:22,135 TRACE org.hibernate.internal.SessionImpl ~ SQL query: SELECT arrival_time, stop_id, trip_id FROM stop_times a WHERE a.stop_id = ? AND arrival_time > (SELECT strftime('%H:%M:%S',datetime(strftime('%s','now'),'unixepoch','localtime'))) ORDER BY arrival_time LIMIT 1;
+2014-07-28 15:21:22,138 DEBUG org.hibernate.SQL ~ SELECT arrival_time, stop_id, trip_id FROM stop_times a WHERE a.stop_id = ? AND arrival_time > (SELECT strftime('%H:%M:%S',datetime(strftime('%s','now'),'unixepoch','localtime'))) ORDER BY arrival_time LIMIT 1;
+2014-07-28 15:21:22,138 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Registering statement [org.sqlite.PrepStmt@191cc0f6]
+2014-07-28 15:21:22,138 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Registering last query statement [org.sqlite.PrepStmt@191cc0f6]
+2014-07-28 15:21:22,139 DEBUG org.hibernate.loader.Loader ~ bindNamedParameters() 14274 -> stoptimes [1]
+2014-07-28 15:21:22,139 TRACE org.hibernate.type.descriptor.sql.BasicBinder ~ binding parameter [1] as [INTEGER] - 14274
+2014-07-28 15:21:22,139 TRACE org.hibernate.loader.Loader ~ Bound [2] parameters total
+2014-07-28 15:21:22,561 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Registering result set [org.sqlite.RS@2d35bcd7]
+2014-07-28 15:21:22,562 TRACE org.hibernate.loader.Loader ~ Processing result set
+2014-07-28 15:21:22,562 DEBUG org.hibernate.loader.Loader ~ Result set row: 0
+2014-07-28 15:21:22,562 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [14274] as column [stop_id]
+2014-07-28 15:21:22,562 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [1766243] as column [trip_id]
+2014-07-28 15:21:22,562 DEBUG org.hibernate.loader.Loader ~ Result row: EntityKey[com.ricketysplit.metrolink.StopTimes#component[stop_id,trip_id]{trip_id=1766243, stop_id=14274}]
+2014-07-28 15:21:22,562 TRACE org.hibernate.loader.Loader ~ Initializing object from ResultSet: [com.ricketysplit.metrolink.StopTimes#component[stop_id,trip_id]{trip_id=1766243, stop_id=14274}]
+2014-07-28 15:21:22,562 TRACE org.hibernate.persister.entity.AbstractEntityPersister ~ Hydrating entity: [com.ricketysplit.metrolink.StopTimes#component[stop_id,trip_id]{trip_id=1766243, stop_id=14274}]
+2014-07-28 15:21:22,562 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [14274] as column [stop_id]
+2014-07-28 15:21:22,562 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [1766243] as column [trip_id]
+2014-07-28 15:21:22,562 TRACE org.hibernate.type.descriptor.sql.BasicExtractor ~ Found [15:22:00] as column [arrival_time]
+2014-07-28 15:21:22,563 TRACE org.hibernate.loader.Loader ~ Done processing result set (1 rows)
+2014-07-28 15:21:22,563 TRACE org.hibernate.loader.Loader ~ Total objects hydrated: 1
+2014-07-28 15:21:22,563 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Resolving associations for [com.ricketysplit.metrolink.StopTimes#component[stop_id,trip_id]{trip_id=1766243, stop_id=14274}]
+2014-07-28 15:21:22,563 DEBUG org.hibernate.engine.internal.TwoPhaseLoad ~ Done materializing entity [com.ricketysplit.metrolink.StopTimes#component[stop_id,trip_id]{trip_id=1766243, stop_id=14274}]
+2014-07-28 15:21:22,563 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Releasing statement [org.sqlite.PrepStmt@191cc0f6]
+2014-07-28 15:21:22,563 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Closing result set [org.sqlite.RS@2d35bcd7]
+2014-07-28 15:21:22,563 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Closing prepared statement [org.sqlite.PrepStmt@191cc0f6]
+2014-07-28 15:21:22,563 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Starting after statement execution processing [ON_CLOSE]
+2014-07-28 15:21:22,563 TRACE org.hibernate.engine.internal.StatefulPersistenceContext ~ Initializing non-lazy collections
+2014-07-28 15:21:22,564 TRACE org.hibernate.context.internal.ThreadLocalSessionContext ~ Allowing proxied method [getTransaction] to proceed to real session
+2014-07-28 15:21:22,564 DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl ~ committing
+2014-07-28 15:21:22,564 TRACE org.hibernate.internal.SessionImpl ~ Automatically flushing session
+2014-07-28 15:21:22,564 TRACE org.hibernate.event.internal.AbstractFlushingEventListener ~ Flushing session
+2014-07-28 15:21:22,564 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener ~ Processing flush-time cascades
+2014-07-28 15:21:22,564 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener ~ Dirty checking collections
+2014-07-28 15:21:22,564 TRACE org.hibernate.event.internal.AbstractFlushingEventListener ~ Flushing entities and processing referenced collections
+2014-07-28 15:21:22,564 TRACE org.hibernate.event.internal.AbstractFlushingEventListener ~ Processing unreferenced collections
+2014-07-28 15:21:22,564 TRACE org.hibernate.event.internal.AbstractFlushingEventListener ~ Scheduling collection removes/(re)creates/updates
+2014-07-28 15:21:22,564 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener ~ Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2014-07-28 15:21:22,564 DEBUG org.hibernate.event.internal.AbstractFlushingEventListener ~ Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2014-07-28 15:21:22,564 DEBUG org.hibernate.internal.util.EntityPrinter ~ Listing entities:
+2014-07-28 15:21:22,564 DEBUG org.hibernate.internal.util.EntityPrinter ~ com.ricketysplit.metrolink.StopTimes{arrivalTime=15:22:00}
+2014-07-28 15:21:22,564 TRACE org.hibernate.event.internal.AbstractFlushingEventListener ~ Executing flush
+2014-07-28 15:21:22,564 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Starting after statement execution processing [ON_CLOSE]
+2014-07-28 15:21:22,564 TRACE org.hibernate.event.internal.AbstractFlushingEventListener ~ Post flush
+2014-07-28 15:21:22,564 TRACE org.hibernate.internal.SessionImpl ~ before transaction completion
+2014-07-28 15:21:22,564 DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction ~ committed JDBC Connection
+2014-07-28 15:21:22,564 DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction ~ re-enabling autocommit
+2014-07-28 15:21:22,565 TRACE org.hibernate.engine.transaction.internal.TransactionCoordinatorImpl ~ after transaction completion
+2014-07-28 15:21:22,565 TRACE org.hibernate.internal.SessionImpl ~ after transaction completion
+2014-07-28 15:21:22,565 TRACE org.hibernate.internal.SessionImpl ~ Automatically closing session
+2014-07-28 15:21:22,565 TRACE org.hibernate.internal.SessionImpl ~ Closing session
+2014-07-28 15:21:22,565 TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl ~ Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@28bc2cff]
+2014-07-28 15:21:22,565 TRACE org.hibernate.engine.jdbc.internal.LogicalConnectionImpl ~ Closing logical connection
+2014-07-28 15:21:22,565 DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl ~ Releasing JDBC connection
+2014-07-28 15:21:22,566 DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl ~ Released JDBC connection
+2014-07-28 15:21:22,566 TRACE org.hibernate.engine.jdbc.internal.LogicalConnectionImpl ~ Logical connection closed

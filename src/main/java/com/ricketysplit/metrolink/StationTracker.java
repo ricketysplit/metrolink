@@ -1,5 +1,8 @@
 package com.ricketysplit.metrolink;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -13,10 +16,16 @@ import java.util.List;
 /**
  * Created by r.harkins on 7/24/2014.
  */
+@Component
 public class StationTracker {
-
+    @Autowired
     private SqliteJDBCDao db;
+    @Autowired
     private AppOutput appOutput;
+
+    public StationTracker(){
+
+    }
 
     public StationTracker(SqliteJDBCDao db, AppOutput appOutput){
         this.db = db;
@@ -49,12 +58,13 @@ public class StationTracker {
         return null;
     }
 
-    public String getNextArrivaltimes(){
+    public void getNextArrivaltimes(){
         Stop stop = getCurrentStation();
-        String sql = "SELECT DISTINCT arrival_time FROM stop_times WHERE stop_id = '" + stop.getStopID()
+        String sql = "SELECT arrival_time FROM stop_times WHERE stop_id = '" + stop.getStopID()
                 + "' AND arrival_time > (SELECT strftime('%H:%M:%S',datetime(strftime('%s','now'),'unixepoch','localtime'))) ORDER BY arrival_time LIMIT 1;";
         appOutput.print("Finding next arrival time for " + stop.getStopName());
-        try (Connection connection = SqliteJDBCDao.getConnection();) {
+        StopTimes arrivalTime = db.getNextArrivalTime(stop);
+        /*try (Connection connection = SqliteJDBCDao.getConnection();) {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             ResultSet resultSet = preparedStatement.executeQuery();
             List<Stop> stops = new ArrayList<>();
@@ -64,7 +74,8 @@ public class StationTracker {
             return "test";
         } catch (SQLException e) {
             throw new RuntimeException("Query failed");
-        }
+        }*/
+        appOutput.print("The next train will arrive at " + formatStationTime(arrivalTime.getArrivalTime()));
     }
 
     public String formatStationTime(String time){
