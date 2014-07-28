@@ -50,15 +50,6 @@ public class SqliteJDBCDao {
         sessionFactoryBean.getCurrentSession().beginTransaction();
         String sql = "SELECT arrival_time, stop_id, trip_id FROM stop_times a WHERE a.stop_id = :stoptimes AND arrival_time > (SELECT strftime('%H:%M:%S',datetime(strftime('%s','now'),'unixepoch','localtime'))) ORDER BY arrival_time LIMIT 1;";
         Query query = sessionFactoryBean.getCurrentSession().createSQLQuery(sql).addEntity(StopTimes.class).setParameter("stoptimes", stop.getStopID());
-        /*sessionFactoryBean.getCurrentSession().beginTransaction();
-        Criteria criteria = sessionFactoryBean.getCurrentSession().createCriteria(StopTimes.class);
-        criteria.add(Restrictions.eq("stop_id", "" + stop.getStopID()));
-        List<StopTimes> arrivalTimes = criteria.list();
-        sessionFactoryBean.getCurrentSession().getTransaction().commit();
-        for(StopTimes a : arrivalTimes) {
-            System.out.println(a.getArrivalTime());
-        }
-        return arrivalTimes.get(0);*/
         List<StopTimes> arrivalTimes = query.list();
         sessionFactoryBean.getCurrentSession().getTransaction().commit();
         return arrivalTimes.get(0);

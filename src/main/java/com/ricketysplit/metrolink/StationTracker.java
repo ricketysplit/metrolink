@@ -64,17 +64,6 @@ public class StationTracker {
                 + "' AND arrival_time > (SELECT strftime('%H:%M:%S',datetime(strftime('%s','now'),'unixepoch','localtime'))) ORDER BY arrival_time LIMIT 1;";
         appOutput.print("Finding next arrival time for " + stop.getStopName());
         StopTimes arrivalTime = db.getNextArrivalTime(stop);
-        /*try (Connection connection = SqliteJDBCDao.getConnection();) {
-            PreparedStatement preparedStatement = connection.prepareStatement(sql);
-            ResultSet resultSet = preparedStatement.executeQuery();
-            List<Stop> stops = new ArrayList<>();
-            while(resultSet.next()) {
-                System.out.println("The next train should arrive at " + formatStationTime(resultSet.getString("arrival_time")));
-            }
-            return "test";
-        } catch (SQLException e) {
-            throw new RuntimeException("Query failed");
-        }*/
         appOutput.print("The next train will arrive at " + formatStationTime(arrivalTime.getArrivalTime()));
     }
 
